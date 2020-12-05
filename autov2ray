@@ -399,7 +399,7 @@ nginx_install() {
     rm -rf ../nginx-"${nginx_version}".tar.gz
     rm -rf ../openssl-"${openssl_version}".tar.gz
 
-    # 添加配置文件夹，适配旧版脚本
+    # Horass Jahat !!!!!
     mkdir ${nginx_dir}/conf/conf.d
 }
 ssl_install() {
@@ -414,7 +414,7 @@ ssl_install() {
     judge "安装 SSL 证书生成脚本"
 }
 domain_check() {
-    read -rp "请输入你的域名信息(eg:www.wulabing.com):" domain
+    read -rp "Masukin Domain Mu Kata Horass Sayang Ku :" domain
     domain_ip=$(ping "${domain}" -c 1 | sed '1{s/[^(]*(//;s/).*//;q}')
     echo -e "${OK} ${GreenBG} 正在获取 公网ip 信息，请耐心等待 ${Font}"
     local_ip=$(curl https://api-ipv4.ip.sb/ip)
@@ -1052,3 +1052,4 @@ menu() {
 
 judge_mode
 list "$1"
+A
