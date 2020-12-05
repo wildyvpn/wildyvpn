@@ -1,5 +1,6 @@
 #!/bin/bash
 #script created by wildyvpn
+neofetch
 echo -e "================== SSH / OVPN ========================"
 echo -e "* utama          : Menampilkan Menu Menu yang ada    *"
 echo -e "* tambah         : Membuat akun SSH & OVPN Baru      *"
@@ -23,6 +24,10 @@ echo -e "» ujicoba        : Mencoba Kecepatan Jaringan        *"
 echo -e "» info           : Menampilkan Informasi System      *"
 echo -e "» about          : Menampilkan Informasi Script      *"
 echo -e "» exit           : Logout Dari Server                *"
+echo -e "==================== Tambahan ========================"
+echo -e "* installvpn     : Meningstall Package L2TP          *"
+echo -e "* addvpn         : Membuat Akun L2TP Baru            *"
+echo -e "* delvpn         : Menghapus Akun L2TP               *"
 echo -e "================== Menu System ======================="
 echo -e "*                                                    *"
 echo -e "*           Script Created By WILDYVPN               *"
